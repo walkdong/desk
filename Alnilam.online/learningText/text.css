@@ -1,0 +1,53 @@
+.ab {
+    color: bisque;
+}
+
+#id1 {
+    color: aquamarine;
+}
+
+
+li {
+    list-style: none;
+}
+
+.radius {
+    width: 59px;
+    height: 99px;
+    border-radius: 9px 20px 13px 22px;
+    /* 顺时针 */
+    background-color: aqua;
+
+}
+
+.shadow0 {
+    box-shadow: 9px 10px rgba(0, 0, 0, 0.2);
+}
+
+.shadow0:hover {
+    box-shadow: 5px 6px rgba(130, 50, 50, 0.5) inset;
+}
+
+.shadow0:active {
+    box-shadow: 5px 6px rgba(255, 3, 3, 0.805) inset;
+}
+
+.shadow0.changed {
+    box-shadow: 1px 2px rgba(234, 255, 3, 0.922) inset;
+}
+
+.radius0 {
+    width: 59px;
+    height: 99px;
+    border-top-left-radius: 9%;
+    background-color: aqua;
+}
+
+
+.float0 {
+    width: 59px;
+    height: 99px;
+    background-color: rgb(79, 55, 105);
+    float: right;
+
+}
