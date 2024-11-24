@@ -1,0 +1,68 @@
+.header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* color: aquamarine; */
+    background-color: rgba(236, 236, 236, 0.5);
+    /* background-image: url(alnilam.jpg); */
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+.w {
+
+    width: 1300px;
+}
+
+.header .w {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* background-color: rgba(236, 236, 236, 0.429); */
+    transform: translate(-50%, -50%);
+    height: 50px;
+
+}
+
+
+.rightW ul li {
+    float: right;
+    margin-left: 7px;
+}
+
+.leftW ul li {
+    float: left;
+    margin-right: 7px;
+}
+
+.w .leftW {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.w .rightW {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateY(-50%)
+}
+
+.icon {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-image: url(/images/Btype-trans.png);
+    background-size: cover;
+
+}
+
+.iconNav {
+    margin-left: -55px;
+    width: 55px;
+    height: 50px;
+    /* background-color: rgba(236, 236, 236, 0.429); */
+}

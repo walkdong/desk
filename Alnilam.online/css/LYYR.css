@@ -1,0 +1,33 @@
+.article {
+
+    background-color: bisque;
+    height: 50px;
+}
+
+.aside {
+    background-color: blueviolet;
+    height: 50px;
+}
+
+/* .nav {
+    height: auto;
+    background-color: black;
+    background-image: url(/images/bkimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+.nav {
+    background-image: url(/images/bkimage.jpeg);
+    /* 设置背景图片 */
+    background-repeat: no-repeat;
+    /* 确保图片不重复 */
+    background-size: cover;
+    /* 使图片完整显示在元素内，保持宽高比 */
+    background-position: center;
+    /* 使图片居中显示 */
+    width: 100%;
+    /* 设置元素宽度为100%，占满整个屏幕宽度 */
+    height: 800px;
+    /* 高度自动，以保持图片的宽高比 */
+}
